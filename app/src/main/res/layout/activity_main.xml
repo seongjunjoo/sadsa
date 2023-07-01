@@ -121,7 +121,8 @@
             android:layout_height="wrap_content"
             android:text="이전화면"
             android:layout_weight="1"
-            android:layout_marginRight="2dp">
+            android:layout_marginRight="2dp"
+            android:id="@+id/cancel_button">
         </Button>
 
 
@@ -130,7 +131,8 @@
             android:layout_height="wrap_content"
             android:text="확인"
             android:layout_weight="1"
-            android:layout_marginLeft="2dp"></Button>
+            android:layout_marginLeft="2dp"
+            android:id="@+id/ok_button"></Button>
 
 
 
