@@ -22,5 +22,38 @@
 
     </EditText>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="8글자이상"
+        android:inputType="textPassword">
+
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="한줄로 입력"
+        android:singleLine="true"
+        android:imeOptions="actionSend">
+
+
+
+    </EditText>
+
+
+
+
 
 </LinearLayout>
