@@ -32,6 +32,8 @@ class MainActivity : AppCompatActivity() {
         cancelbutton.setOnClickListener { // 취소버튼
             Log.d("메인화면", "이전 버튼 눌림")
             Toast.makeText(this, "잠시만기다려주세요..,", Toast.LENGTH_SHORT).show()
+
+            System.exit(0)
         }
 
 
