@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sadsa">
-        <activity android:name=".othermain"></activity>
+        <activity android:name=".Phonenumber"></activity>
+        <activity
+            android:name=".other2"
+            android:label="@string/title_activity_other2"
+            android:theme="@style/Theme.Sadsa.NoActionBar" />
+        <activity
+            android:name=".phone"
+            android:label="@string/title_activity_phone"
+            android:theme="@style/Theme.Sadsa.NoActionBar" />
+        <activity android:name=".othermain" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
