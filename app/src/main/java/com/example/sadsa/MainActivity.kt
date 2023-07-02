@@ -1,5 +1,6 @@
 package com.example.sadsa
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -11,13 +12,35 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        ok_button.setOnClickListener {  // 확인용 버튼
-            Log.d("메인화면", "확인 버튼 눌림")
-            Toast.makeText(this, "잠시만 기다려주세요..", Toast.LENGTH_SHORT).show()
+
+
+        loginbutton.setOnClickListener {
+            val myIntent = Intent(this, othermain::class.java)
+            startActivity(myIntent)
         }
-        cancel_button.setOnClickListener { // 취소버튼
-            Log.d("메인화면","이전화면 버튼 눌림")
+
+
+        loginbutton.setOnClickListener {  // 확인용 버튼
+            val inputId = idEdt.text.toString()
+            val inputPw = passwordEdt.text.toString()
+
+            if (inputId == "admin@test.com" && inputPw == "qwer") {
+                Toast.makeText(this, " 관리자입니다.", Toast.LENGTH_SHORT).show()
+            }
+
+            else {
+                Toast.makeText(this, "관리자가 아닙니다.", Toast.LENGTH_SHORT).show()
+            }
+
         }
+        cancelbutton.setOnClickListener { // 취소버튼
+            Log.d("메인화면", "이전 버튼 눌림")
+            Toast.makeText(this, "잠시만기다려주세요..,", Toast.LENGTH_SHORT).show()
+        }
+
+
+
+
 
 
     }
