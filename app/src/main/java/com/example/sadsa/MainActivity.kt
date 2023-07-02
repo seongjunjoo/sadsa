@@ -14,15 +14,11 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        loginbutton.setOnClickListener {
-            val myIntent = Intent(this, othermain::class.java)
-            startActivity(myIntent)
-        }
-
-
         loginbutton.setOnClickListener {  // 확인용 버튼
             val inputId = idEdt.text.toString()
             val inputPw = passwordEdt.text.toString()
+            val myIntent = Intent(this, othermain::class.java)
+            startActivity(myIntent)
 
             if (inputId == "admin@test.com" && inputPw == "qwer") {
                 Toast.makeText(this, " 관리자입니다.", Toast.LENGTH_SHORT).show()
