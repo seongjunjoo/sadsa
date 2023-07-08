@@ -1,11 +1,6 @@
 package com.example.sadsa
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-
-class List : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_list)
-    }
-}
+class List(
+    val name: String,
+    )
+)

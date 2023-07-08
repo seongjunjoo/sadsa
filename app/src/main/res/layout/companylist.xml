@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일자"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="@font/GmarketSansTTFBold">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="2023-07-08"
+            android:layout_marginTop="5dp"></TextView>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:id="@+id/namecard"
+            android:scaleType="fitXY"
+            android:src="@drawable/exnamecard"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회사명"
+            android:textColor="@color/black"
+            android:fontFamily="@font/GmarketSansTTFBold"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="바이어"
+            android:textColor="@color/black"
+            android:fontFamily="@font/GmarketSansTTFBold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="연락처"
+            android:textColor="@color/black"
+            android:fontFamily="@font/GmarketSansTTFBold"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="에코베이스"
+        android:textColor="@color/black"
+        android:fontFamily="@font/GmarketSansTTFLight"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:text="김고은"
+        android:textColor="@color/black"
+        android:fontFamily="@font/GmarketSansTTFLight"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:text="010-xxxx-xxxx"
+        android:textColor="@color/black"
+        android:fontFamily="@font/GmarketSansTTFLight"></TextView>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="주력사업"
+            android:textColor="@color/black"
+            android:fontFamily="@font/GmarketSansTTFBold"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:text="타입"
+            android:textColor="@color/black"
+            android:fontFamily="@font/GmarketSansTTFBold"></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="환경"
+            android:textColor="@color/black"
+            android:fontFamily="@font/GmarketSansTTFLight"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="82dp"
+            android:text="경쟁사"
+            android:textColor="@color/black"
+            android:fontFamily="@font/GmarketSansTTFLight"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상담내용"
+            android:textColor="@color/black"
+            android:fontFamily="@font/GmarketSansTTFBold"
+            android:textSize="20dp"
+            ></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:text="..........................................."
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
