@@ -21,7 +21,7 @@
             android:text="일자"
             android:textColor="@color/black"
             android:textSize="18dp"
-            android:fontFamily="@font/GmarketSansTTFBold">
+            android:fontFamily="@font/gmarket_sans_ttf_bold">
         </TextView>
 
         <TextView
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:text="회사명"
             android:textColor="@color/black"
-            android:fontFamily="@font/GmarketSansTTFBold"
+            android:fontFamily="@font/gmarket_sans_ttf_bold"
             ></TextView>
 
         <TextView
@@ -61,7 +61,7 @@
             android:layout_marginLeft="70dp"
             android:text="바이어"
             android:textColor="@color/black"
-            android:fontFamily="@font/GmarketSansTTFBold"></TextView>
+            android:fontFamily="@font/gmarket_sans_ttf_bold"></TextView>
 
         <TextView
             android:layout_width="wrap_content"
@@ -69,7 +69,7 @@
             android:layout_marginLeft="60dp"
             android:text="연락처"
             android:textColor="@color/black"
-            android:fontFamily="@font/GmarketSansTTFBold"></TextView>
+            android:fontFamily="@font/gmarket_sans_ttf_bold"></TextView>
 
     </LinearLayout>
 
@@ -80,12 +80,13 @@
         android:layout_marginTop="20dp">
 
     <TextView
+        android:id="@+id/businessname"
         android:layout_marginLeft="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="에코베이스"
         android:textColor="@color/black"
-        android:fontFamily="@font/GmarketSansTTFLight"
+        android:fontFamily="@font/gmarket_sans_ttf_light"
         ></TextView>
 
     <TextView
@@ -94,15 +95,16 @@
         android:layout_marginLeft="42dp"
         android:text="김고은"
         android:textColor="@color/black"
-        android:fontFamily="@font/GmarketSansTTFLight"></TextView>
+        android:fontFamily="@font/gmarket_sans_ttf_light"></TextView>
 
     <TextView
+        android:id="@+id/contact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"
         android:text="010-xxxx-xxxx"
         android:textColor="@color/black"
-        android:fontFamily="@font/GmarketSansTTFLight"></TextView>
+        android:fontFamily="@font/gmarket_sans_ttf_light"></TextView>
 
         </LinearLayout>
 
@@ -119,7 +121,7 @@
             android:layout_height="wrap_content"
             android:text="주력사업"
             android:textColor="@color/black"
-            android:fontFamily="@font/GmarketSansTTFBold"
+            android:fontFamily="@font/gmarket_sans_ttf_bold"
             ></TextView>
 
         <TextView
@@ -128,7 +130,7 @@
             android:layout_marginLeft="55dp"
             android:text="타입"
             android:textColor="@color/black"
-            android:fontFamily="@font/GmarketSansTTFBold"></TextView>
+            android:fontFamily="@font/gmarket_sans_ttf_bold"></TextView>
 
 
     </LinearLayout>
@@ -144,7 +146,7 @@
             android:layout_height="wrap_content"
             android:text="환경"
             android:textColor="@color/black"
-            android:fontFamily="@font/GmarketSansTTFLight"
+            android:fontFamily="@font/gmarket_sans_ttf_light"
             ></TextView>
 
         <TextView
@@ -153,7 +155,7 @@
             android:layout_marginLeft="82dp"
             android:text="경쟁사"
             android:textColor="@color/black"
-            android:fontFamily="@font/GmarketSansTTFLight"></TextView>
+            android:fontFamily="@font/gmarket_sans_ttf_light"></TextView>
     </LinearLayout>
 
     <LinearLayout
@@ -167,7 +169,7 @@
             android:layout_height="wrap_content"
             android:text="상담내용"
             android:textColor="@color/black"
-            android:fontFamily="@font/GmarketSansTTFBold"
+            android:fontFamily="@font/gmarket_sans_ttf_bold"
             android:textSize="20dp"
             ></TextView>
 
