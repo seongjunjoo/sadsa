@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sadsa">
-        <activity android:name=".Phonenumber"></activity>
+        <activity android:name=".List"></activity>
+        <activity android:name=".Phonenumber" />
         <activity
             android:name=".other2"
             android:label="@string/title_activity_other2"
